@@ -19,6 +19,6 @@ public class Bullet : MonoBehaviour
     void Update()
     {
         // 계속 위로 이동하고 싶다.
-        transform.position += Vector3.up * speed * Time.deltaTime;
+        transform.position += transform.up * speed * Time.deltaTime;
     }
 }
